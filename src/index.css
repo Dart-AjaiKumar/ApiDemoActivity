@@ -1,0 +1,153 @@
+.login {
+  margin-top: 7%;
+  text-align: center;
+}
+.login input{
+  font-size: 25px;
+  margin-top: 3%;
+  border-radius: 5px;
+  border-color: darkslateblue;
+}
+.login h2{
+  font-size: 30px;
+  color: darkorchid;
+  border-color: chartreuse;
+}
+.login label{
+  font-size: 25px;
+  margin-right:10px;
+  color: crimson;
+}
+.login button{
+  font-size: 20px;
+  padding: 5px 50px;
+  background-color: hotpink;
+  border-radius: 10px;
+  margin-top: 3%;
+}
+.login p{
+  font-size: 17px;
+  margin-top: 25px;
+}
+
+.register {
+  margin-top: 4%;
+  text-align: center;
+}
+.register input{
+  font-size: 30px;
+  border-radius: 5px;
+  border-color: darkslateblue;
+  
+}
+.register h2{
+  font-size: 30px;
+  color: darkorchid;
+  border-color: chartreuse;
+}
+.register label{
+  font-size: 25px;
+  margin-right:10px;
+  color: darkslategray;
+  
+}
+.register button{
+  font-size: 20px;
+  padding: 5px 50px;
+  background-color: hotpink;
+  border-radius: 10px;
+  margin-top: 2%;
+}
+.header{
+  font-size: 30px;
+  color: darkorchid;
+  border-color: chartreuse;
+  text-align: center;
+}
+nav ul{
+  display: flex;
+  color: #fff;
+  list-style-type: none;
+}
+nav{
+  background-color: darkorchid;
+  display: flex;
+  justify-content: space-between;
+}
+nav li{
+  padding: 1rem;
+}
+nav li {
+  color:white;
+  text-decoration: none;
+  font-size: 20px;
+}
+nav li:hover,
+nav li:focus{
+  padding: 1rem;
+;
+}
+nav li:hover,
+nav li:focus,
+nav li:hover a,
+nav li:focus a{
+  color: darkorchid;
+  background-color: aliceblue;
+}
+nav  a,.data a{
+  text-decoration: none;
+}
+nav input,button{
+  font-size:20px;
+  margin: 27px;
+}
+nav button{
+  background-color: darkred;
+  color: azure;
+}
+.data{
+    margin-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid lightgray;
+    border-radius: 20px 0px;
+    margin-left: 10px;
+}
+.addemployee{
+  text-align: center;
+}
+.datatable {
+  border-collapse: collapse;
+  margin :25px 0;
+  font-size: 20px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.datatable td{
+  padding: 12px 15px;
+}
+.datatable thead tr{
+  border-bottom: 1px solid #dddddd;
+}
+.editbutton{
+  background-color: cornflowerblue;
+  float: right;
+  font-size: 30px;
+}
+.deletebutton{
+  background-color:red;
+  font-size: 29px;
+  float:left;
+}
+.addemployeebtn{
+  background-color: cornflowerblue;
+  font-size: 20px;
+}
+.datatable input{
+  font-size: 20px;
+}
+
